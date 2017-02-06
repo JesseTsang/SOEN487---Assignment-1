@@ -3,6 +3,8 @@
  */
 package com.assignment1.model;
 
+import java.util.List;
+
 /**
  * @author Jesse Tsang
  * 
@@ -13,11 +15,14 @@ public class RSSBean
 {
 	private String url;
 	
-	public Feed parseURL(String url)
+	public List<FeedMessage> parseURL()
 	{
 		RSSFeedParser feedParser = new RSSFeedParser(url);
 		
-		return feedParser.readFeed();
+		Feed resultFeed = feedParser.readFeed();
+		List<FeedMessage> result = resultFeed.getMessages();
+		
+		return result;
 	}
 
 	//Getters & Setters -- Below

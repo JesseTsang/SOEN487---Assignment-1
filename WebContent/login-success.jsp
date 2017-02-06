@@ -4,6 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <title>SOEN487 - Assignment 1 - Exercise 1</title>
 </head>
 <body>
@@ -17,12 +27,17 @@
 	out.print("Welcome, " + bean.getName() + "!");
 %>
 
+<br/>
+
 <form action="RSSControllerServlet" method="post">
 	<table>
 		<tr>
 			<td>URL: </td>
 			<td><input type="text" name="url"><br/></td>
 		</tr>
+		<tr>
+			<td>Sample RSS: </td>
+			<td>http://www.vogella.com/article.rss</td>
 	</table>
 	<input type="submit" value="Submit">
 </form>
