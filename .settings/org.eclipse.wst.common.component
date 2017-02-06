@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SOEN487Assignment1TEMP">
+    <wb-module deploy-name="SOEN487 - Assignment 1">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="SOEN487_-_Assignment_1_-_TEMP"/>
-        <property name="java-output-path" value="/SOEN487Assignment1TEMP/build/classes"/>
+        <property name="java-output-path" value="/SOEN487 - Assignment 1/build/classes"/>
     </wb-module>
 </project-modules>
